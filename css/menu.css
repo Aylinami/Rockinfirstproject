@@ -1,0 +1,247 @@
+div.menu {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+}
+div.menu > nav {
+  width: inherit;
+  height: inherit;
+}
+div.menu > nav > ul {
+  width: inherit;
+  height: inherit;
+  list-style: none;
+  padding-right: 30px;
+}
+div.menu > nav > ul > li {
+  width: auto;
+  height: inherit;
+  display: inline-block;
+}
+div.menu > nav > ul > li > a,
+a.a-1 {
+  font-family: yekan;
+  width: auto;
+  padding: 0px 10px;
+  display: block;
+  line-height: 40px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  /* vertical-align: top; */
+}
+div.menu > nav > ul > li > a.a-1 {
+  padding-right: 600px;
+}
+div.menu > nav > ul > li > div.submenu {
+  width: calc(100vw - 50px);
+  height: 600px;
+  position: absolute;
+  top: 178px;
+  left: calc(50% - calc(100vw - 50px) / 2);
+  background-color: #f3f3f3;
+  display: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  z-index: 9;
+}
+div.menu > nav > ul > li:hover {
+  box-shadow: inset 0px -3px 0px 0px rgb(239, 57, 78);
+}
+div.menu > nav > ul > li:hover > div.submenu {
+  display: block;
+}
+div.menu > nav > ul > li > div.submenu > ul {
+  width: 15%;
+  height: inherit;
+  box-shadow: inset 1px 1px 2px 2px rgb(229, 229, 229);
+  /* display: block; */
+  background-color: #f7f7f7;
+  padding-right: 10px;
+  list-style: none;
+  /* overflow-y: scroll; */
+}
+div.menu > nav > ul > li > div.submenu > ul > li {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 2px;
+}
+div.menu > nav > ul > li > div.submenu > ul > li > a {
+  font-family: yekan;
+  display: block;
+  width: inherit;
+  height: inherit;
+  text-decoration: none;
+  color: black;
+  line-height: 40px;
+  padding: 5px;
+  font-weight: bold;
+  /* text-align: justify; */
+}
+div.menu > nav > ul > li > div.submenu > ul > li > div.submenu-2 {
+  width: 85%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9;
+  /*display: block;
+  */
+}
+div.menu > nav > ul > li > div.submenu > ul > li > div.submenu-2 > div.zero {
+  display: none;
+  width: 85%;
+  height: 40px;
+  /* position: absolute;
+  left: 0;
+  top: 0; */
+}
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > ul
+  > li:hover
+  > div.submenu-2
+  > div.zero {
+  display: block;
+}
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > ul
+  > li
+  > div.submenu-2
+  > div.zero
+  > ul {
+  width: inherit;
+  height: inherit;
+}
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > ul
+  > li
+  > div.submenu-2
+  > div.zero
+  > ul
+  > li {
+  list-style: none;
+  width: 100%;
+  height: inherit;
+}
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > ul
+  > li
+  > div.submenu-2
+  > div.zero
+  > ul
+  > li
+  > a {
+  width: inherit;
+  height: inherit;
+  color: black;
+  text-decoration: none;
+  line-height: 40px;
+  font-family: yekan;
+  padding: 0px 10px;
+  text-align: justify;
+}
+div.menu > nav > ul > li > div.submenu > ul > li > div.submenu-2 > div.first {
+  display: none;
+  width: 23%;
+  height: 460px;
+  vertical-align: top;
+}
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > ul
+  > li:hover
+  > div.submenu-2
+  > div.first {
+  display: inline-block;
+}
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > ul
+  > li
+  > div.submenu-2
+  > div.first
+  > ul {
+  width: 100%;
+  height: inherit;
+  list-style: none;
+}
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > ul
+  > li
+  > div.submenu-2
+  > div.first
+  > ul
+  > li {
+  width: auto;
+  height: auto;
+  display: block;
+}
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > ul
+  > li
+  > div.submenu-2
+  > div.first
+  > ul
+  > li
+  > a,
+a.a-2 {
+  font-family: yekan;
+  width: auto;
+  padding: 0px 10px;
+  display: block;
+  line-height: 33px;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > ul
+  > li
+  > div.submenu-2
+  > div.first
+  > ul
+  > li
+  > a.a-2 {
+  box-shadow: inset -3px 0px 0px 0px rgb(239, 57, 78);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
