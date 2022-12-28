@@ -1,0 +1,32 @@
+div.sthings2>div.twins{
+    width: 1304px;
+    height: 257.6px;
+    margin-top: 24px;
+}
+div.sthings2>div.twins>a{
+    width: 644px;
+    height: inherit;
+    position: relative;
+    display: inline-block;
+}
+div.sthings2>div.twins>a:last-of-type{
+    margin-right: 10px;
+}
+div.sthings2>div.twins>a>figure{
+    width: inherit;
+    height: inherit;
+}
+div.sthings2>div.twins>a>figure>img{
+    width: inherit;
+    height: inherit;
+    cursor: pointer;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
