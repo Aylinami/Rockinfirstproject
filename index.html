@@ -1046,7 +1046,7 @@
             </li>
             <li><a href="#">سوپرمارکت</a></li>
             <li><a href="#">پرفروش ترینها</a></li>
-            <li><a href="#">نخفیف‌ها و پیشنهاد‌ها</a></li>
+            <li><a href="#">تخفیف‌ها و پیشنهاد‌ها</a></li>
             <li><a href="#">شگفت انگیز‌ها</a></li>
             <li><a href="#">سوالی دارید؟</a></li>
             <li><a href="#">در دیجی کالا بفروشید!</a></li>
@@ -1058,156 +1058,179 @@
       <!--the start of the extra part of the menu-->
       <!--the end of the extra part of the menu-->
       <!--The start of The slider-->
-      <div class="slider">
-        <!-- Swiper-1 -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./images/slider-1.jpg" alt="sth-from-digikala" />
+      <div class="container0">
+        <div class="slider">
+          <!-- Swiper-1 -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img
+                  src="./images/slider-1.jpg"
+                  alt="sth-from-digikala"
+                  width="1528px"
+                  height="400px"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/slider-2.jpg"
+                  alt="sth-from-digikala"
+                  width="1528px"
+                  height="400px"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/slider-3.jpg"
+                  alt="sth-from-digikala"
+                  width="1528px"
+                  height="400px"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/slider-4.jpg"
+                  alt="sth-from-digikala"
+                  width="1528px"
+                  height="400px"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/slider-5.jpg"
+                  alt="sth-from-digikala"
+                  width="1528px"
+                  height="400px"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/slider-6.jpg"
+                  alt="sth-from-digikala"
+                  width="1528px"
+                  height="400px"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/slider-7.gif"
+                  alt="sth-from-digikala"
+                  width="1528px"
+                  height="400px"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/slider-8.jpg"
+                  alt="sth-from-digikala"
+                  width="1528px"
+                  height="400px"
+                />
+              </div>
+              <div class="swiper-slide">
+                <img
+                  src="./images/slider-9.jpg"
+                  alt="sth-from-digikala"
+                  width="1528px"
+                  height="400px"
+                />
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img src="./images/slider-2.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slider-3.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slider-4.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slider-5.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slider-6.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slider-7.gif" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slider-8.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./images/slider-9.jpg" alt="sth-from-digikala" />
-            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
           </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
+          <!-- Swiper JS -->
         </div>
-        <br />
-        <!-- Swiper JS -->
       </div>
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          // navigation: {
+          //   nextEl: ".swiper-button-next",
+          //   prevEl: ".swiper-button-prev",
+          // },
+        });
+      </script>
       <!--The end of the slider-->
-      <!--The start of The slider-2 -->
-      <!-- Swiper-2 -->
-      <!-- <div class="slider-2">
-        <div #swiperRef="" class="swiper-container-2 mySwiper">
-          <div class="swiper-wrapper-2">
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-1.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-2.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-3.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-4.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-5.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-6.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-7.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-8.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-9.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-10.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-11.jpg" alt="sth-from-digikala" />
-            </div>
-            <div class="swiper-slide-2">
-              <img src="./images/slider2-12.jpg" alt="sth-from-digikala" />
-            </div>
-          </div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div> -->
-      <!--The end of the slider-2 -->
+
       <!--The start of the middle parts part-1-->
-      <div class="sthings">
-        <a href="https://www.digikalajet.com/user/address" target="_blank">
-          <figure>
-            <img src="./images/8.png" alt="digikala-things" />
-            <figcaption>دیجی‌کالا جت</figcaption>
-          </figure>
-        </a>
-        <a
-          href="https://www.digistyle.com/sale-landing/?utm_source=digikala&utm_medium=circle_badge&utm_campaign=style&promo_name=style&promo_position=circle_badge"
-          target="_blank"
-          ><figure>
-            <img src="./images/9.png" alt="digikala-things" />
-            <figcaption>حراج استایل</figcaption>
-          </figure>
-        </a>
-        <a
-          href="https://www.digikala.com/my-digipay/?action=408?utm_source=DPbuttonDK&utm_medium=DKBanner&promo_name=my-digipay&promo_position=circle_badge"
-          target="_blank"
-        >
-          <figure>
-            <img src="./images/10.png" alt="digikala-things" />
-            <figcaption>خرید اقساطی</figcaption>
-          </figure>
-        </a>
-        <a
-          href="https://digikalabusiness.com/?utm_source=digikala&utm_medium=circle_badge&utm_campaign=business&promo_name=business&promo_position=circle_badge"
-          target="_blank"
-        >
-          <figure>
-            <img src="./images/11.png" alt="digikala-things" />
-            <figcaption>خرید عمده و سازمانی</figcaption>
-          </figure>
-        </a>
-        <a
-          href="https://www.digikala.com/landing/payday/?promo_name=pay-day&promo_position=circle_badge"
-          target="_blank"
-        >
-          <figure>
-            <img src="./images/12.png" alt="digikala-things" />
-            <figcaption>خرید سر ماه</figcaption>
-          </figure>
-        </a>
-        <a
-          href="https://www.digikala.com/landing/he-seller/?promo_name=HE_landing&promo_position=circle_badge"
-          target="_blank"
-        >
-          <figure>
-            <img src="./images/13.png" alt="digikala-things" />
-            <figcaption>حراج لوازم خانگی</figcaption>
-          </figure>
-        </a>
-        <a
-          href="https://www.digikala.com/digiclub/authorize/?game=wheel_spinner&redirect_url=http://games.digikala.com/wheel-spinner"
-          target="_blank"
-        >
-          <figure>
-            <img src="./images/14.png" alt="digikala-things" />
-            <figcaption>چرخ و بخت</figcaption>
-          </figure>
-        </a>
-        <!-- <a href="https://www.digikalajet.com/user/address" target="_blank">
+      <div class="container1">
+        <div class="sthings">
+          <a href="https://www.digikalajet.com/user/address" target="_blank">
+            <figure>
+              <img src="./images/8.png" alt="digikala-things" />
+              <figcaption>دیجی‌کالا جت</figcaption>
+            </figure>
+          </a>
+          <a
+            href="https://www.digistyle.com/sale-landing/?utm_source=digikala&utm_medium=circle_badge&utm_campaign=style&promo_name=style&promo_position=circle_badge"
+            target="_blank"
+            ><figure>
+              <img src="./images/9.png" alt="digikala-things" />
+              <figcaption>حراج استایل</figcaption>
+            </figure>
+          </a>
+          <a
+            href="https://www.digikala.com/my-digipay/?action=408?utm_source=DPbuttonDK&utm_medium=DKBanner&promo_name=my-digipay&promo_position=circle_badge"
+            target="_blank"
+          >
+            <figure>
+              <img src="./images/10.png" alt="digikala-things" />
+              <figcaption>خرید اقساطی</figcaption>
+            </figure>
+          </a>
+          <a
+            href="https://digikalabusiness.com/?utm_source=digikala&utm_medium=circle_badge&utm_campaign=business&promo_name=business&promo_position=circle_badge"
+            target="_blank"
+          >
+            <figure>
+              <img src="./images/11.png" alt="digikala-things" />
+              <figcaption>خرید عمده و سازمانی</figcaption>
+            </figure>
+          </a>
+          <a
+            href="https://www.digikala.com/landing/payday/?promo_name=pay-day&promo_position=circle_badge"
+            target="_blank"
+          >
+            <figure>
+              <img src="./images/12.png" alt="digikala-things" />
+              <figcaption>خرید سر ماه</figcaption>
+            </figure>
+          </a>
+          <a
+            href="https://www.digikala.com/landing/he-seller/?promo_name=HE_landing&promo_position=circle_badge"
+            target="_blank"
+          >
+            <figure>
+              <img src="./images/13.png" alt="digikala-things" />
+              <figcaption>حراج لوازم خانگی</figcaption>
+            </figure>
+          </a>
+          <a
+            href="https://www.digikala.com/digiclub/authorize/?game=wheel_spinner&redirect_url=http://games.digikala.com/wheel-spinner"
+            target="_blank"
+          >
+            <figure>
+              <img src="./images/14.png" alt="digikala-things" />
+              <figcaption>چرخ و بخت</figcaption>
+            </figure>
+          </a>
+          <!-- <a href="https://www.digikalajet.com/user/address" target="_blank">
   <img src="./images/8.png" alt="digikala-things"> 
   <span>دیجی‌کالا جت</span>
 </a>
@@ -1235,8 +1258,175 @@
 <img src="./images/14.png" alt="digikala-things">
 <span>چرخ و بخت</span>
 </a> -->
+        </div>
+        <!--the end of the middle parts part-1-->
+        <!--The start of The slider-2 -->
+        <!-- Swiper-->
+        <div>
+          <div class="slider">
+            <div #swiperRef="" class="swiper-container mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-1.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-2.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-3.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-4.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-5.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-6.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-7.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-8.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-9.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-10.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-11.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="./images/slider2-12.jpg"
+                    alt="sth-from-digikala"
+                    width="150px"
+                    height="150px"
+                  />
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <!--the end of the middle parts part-1-->
+      <!-- Swiper JS -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          centeredSlides: true,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+
+        var appendNumber = 4;
+        var prependNumber = 1;
+        document
+          .querySelector(".prepend-2-slides")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.prependSlide([
+              '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+              '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+            ]);
+          });
+        document
+          .querySelector(".prepend-slide")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.prependSlide(
+              '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+            );
+          });
+        document
+          .querySelector(".append-slide")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.appendSlide(
+              '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+            );
+          });
+        document
+          .querySelector(".append-2-slides")
+          .addEventListener("click", function (e) {
+            e.preventDefault();
+            swiper.appendSlide([
+              '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+              '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+            ]);
+          });
+      </script>
+      <!--The end of the slider-2 -->
       <!--The start of the middle parts part-2-->
       <div class="sthings2">
         <!--The start of the middle parts part-A-->
@@ -1315,8 +1505,15 @@
           </a>
         </div>
         <!--the end of the middle parts part C-->
-        <!--the start of the middle parts part C-->
-        <!--the end of the middle parts part C-->
+        <!--the start of the middle parts part D-->
+        <div class="single">
+          <a href="https://www.digikala.com/brand/koluman/" target="_blank">
+            <figure>
+              <img src="./images/17.jpg" alt="digikala-stuff" />
+            </figure>
+          </a>
+        </div>
+        <!--the end of the middle parts part D-->
         <!--the start of the middle parts part C-->
         <!--the end of the middle parts part C-->
         <!--the start of the middle parts part C-->
@@ -1331,6 +1528,35 @@
       <!--The start of the contact-->
       <!--the end of the contact-->
       <!--The start of the footer-->
+      <footer>
+        <div>
+          <div>
+            <div>
+              <div>
+                <p>
+                </p>
+                <div></div>
+                <p></p>
+              </div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <div>
+              <div></div>
+              <div></div>
+              <a href=""></a>
+            </div>
+            <div>
+              <div></div>
+              <div></div>
+            </div>
+            <div></div>
+          </div>
+        </div>
+        <div><div></div></div>
+      </footer>
       <!--The end of the footer-->
     </div>
     <!-- Swiper JS -->
@@ -1356,61 +1582,5 @@
         },
       });
     </script>
-    <!-- Swiper JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
-
-    <!-- Initialize Swiper -->
-    <!-- <script>
-    var swiper-2 = new Swiper('.mySwiper', {
-      slidesPerView: 3,
-      centeredSlides: true,
-      spaceBetween: 30,
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'fraction',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-
-    var appendNumber = 4;
-    var prependNumber = 1;
-    document
-      .querySelector('.prepend-2-slides')
-      .addEventListener('click', function (e) {
-        e.preventDefault();
-        swiper.prependSlide([
-          '<div class="swiper-slide-2">Slide ' + --prependNumber + '</div>',
-          '<div class="swiper-slide-2">Slide ' + --prependNumber + '</div>',
-        ]);
-      });
-    document
-      .querySelector('.prepend-slide')
-      .addEventListener('click', function (e) {
-        e.preventDefault();
-        swiper.prependSlide(
-          '<div class="swiper-slide-2">Slide ' + --prependNumber + '</div>'
-        );
-      });
-    document
-      .querySelector('.append-slide')
-      .addEventListener('click', function (e) {
-        e.preventDefault();
-        swiper.appendSlide(
-          '<div class="swiper-slide-2">Slide ' + ++appendNumber + '</div>'
-        );
-      });
-    document
-      .querySelector('.append-2-slides')
-      .addEventListener('click', function (e) {
-        e.preventDefault();
-        swiper.appendSlide([
-          '<div class="swiper-slide-2">Slide ' + ++appendNumber + '</div>',
-          '<div class="swiper-slide-2">Slide ' + ++appendNumber + '</div>',
-        ]);
-      });
-  </script> -->
   </body>
 </html>

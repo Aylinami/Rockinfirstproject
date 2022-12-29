@@ -1,0 +1,30 @@
+div.sthings2 > div.single {
+  width: 1304px;
+  height: 163px;
+  margin-top: 24px;
+}
+div.sthings2 > div.single > a {
+  width: 1304px;
+  height: 163px;
+  position: relative;
+  display: block;
+  cursor: pointer;
+}
+div.sthings2 > div.single > a > figure {
+  width: 1304px;
+  height: 0px;
+  padding-top: 163px;
+}
+div.sthings2 > div.single > a > figure > img {
+  width: 1304px;
+  height: 163px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  object-fit: cover;
+}

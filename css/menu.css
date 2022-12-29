@@ -27,10 +27,16 @@ a.a-1 {
   display: block;
   line-height: 40px;
   text-decoration: none;
-  color: black;
+  color: rgb(98, 102, 109);
+  fill: rgb(161, 163, 168);
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 500;
   /* vertical-align: top; */
+}
+div.menu > nav > ul > li:first-of-type > a{
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
 }
 div.menu > nav > ul > li > a.a-1 {
   padding-right: 600px;
