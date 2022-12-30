@@ -1,0 +1,81 @@
+div.footer{
+    width: 1528px;
+    height: 1150px;
+    padding-top: 32px;
+    margin-top:48px;
+    display: block;
+    border: 1px solid lightgray;
+    background-color: aqua;
+}
+div.footer>div.container-last{
+    width: 1528px;
+    height: 957px;
+    display: block;
+}
+div.footer>div.container-last>div.sub-container{
+    width: 1528px;
+    height: 957px;
+padding-left: 20px;
+padding-right: 20px;
+    display: inline-block;
+    background-color: bisque;
+}
+div.footer>div.container-last>div.sub-container>div.SC-1{
+    width: 1488px;
+    height: 40px;
+    background-color: blue;
+    /* position: relative; */
+}
+div.footer>div.container-last>div.sub-container>div.sc-1>figure{
+    width: 113.325px;
+    height: 30px;
+    margin-left: 16px;
+}
+div.footer>div.container-last>div.sub-container>div.sc-1>figure>img{
+    display: inline-block;
+    width: 113.325px;
+    height: 30px;
+    object-fit: contain;
+    position: relative;
+}
+div.footer>div.container-last>div.sub-container>div.sc-1>button{
+    width: 138.212px;
+    height: 40px;
+    align-items: center;
+    color: rgb(12, 12, 12);
+    border: solid 1px grey;
+    background-color: rgba(0, 0, 0, 0) ;
+font-size: 12px;
+line-height: 26px;
+position: relative;
+text-align: center;
+padding: 8px 16px;
+font-weight: 700;
+left: 0px;
+top: 0;
+cursor: pointer;
+}
+/* footer>div.container-last>div.sub-container>div.sc-1>button>div.jesus{
+    width: 24px;
+    height: 0px;
+position: absolute;
+left: 56px;
+top: 76px;
+z-index: 2;
+}
+footer>div.container-last>div.sub-container>div.sc-1>button>div.jesus>div.jesus-1{}
+footer>div.container-last>div.sub-container>div.sc-1>button>div.jesus>div.jesus-2{}
+footer>div.container-last>div.sub-container>div.sc-1>button>div.jesus>div.jesus-3{} */
+div.footer>div.container-last>div.sub-container>div.sc-1>button>div.button{
+    width: 104.213px;
+    height: 26.0375px;
+    position: relative;
+    justify-content: center;
+}
+div.footer>div.container-last>div.sub-container>div.sc-1>button>div.button>a{
+    width: 72.2125px;
+    height: 26.0375px;
+    text-decoration: none;
+    color: black;
+    font-family: yekan;
+}
