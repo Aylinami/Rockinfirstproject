@@ -1,0 +1,115 @@
+div.sthings2 > div.rec {
+  display: block;
+  width: 1304px;
+  height: 396px;
+  margin-top: 24px;
+  text-align: center;
+  overflow: hidden;
+}
+div.sthings2 > div.rec > div.rec-1 {
+  width: 1304px;
+  height: 76.1px;
+  display: block;
+  padding: 16px 0px;
+}
+div.sthings2 > div.rec > div.rec-1 > h2 {
+  width: 200px;
+  height: 44px;
+  line-height: 44px;
+  display: inline-block;
+  font-family: yekan;
+  font-size: 26px;
+  font-weight: 300;
+  text-align: center;
+  color: rgb(8, 10, 56);
+}
+div.sthings2 > div.rec > div.rec-2 {
+  width: 1304px;
+  height: 311.2px;
+  margin-top: 8px;
+  display: inline-block;
+  border-radius: 15px;
+  border: 1px solid rgb(220, 220, 220);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+div.sthings2 > div.rec > div.rec-2 > div.sub-rec {
+  width: 182px;
+  height: 310.2px;
+  display: inline-block;
+  border: 1px solid rgb(220, 220, 220);
+  vertical-align: top;
+  border-right: 0;
+}
+div.sthings2 > div.rec > div.rec-2 > div.sub-rec:nth-last-of-type(1) {
+  border-left: 0;
+}
+div.sthings2 > div.rec > div.rec-2 > div.sub-rec > div.subsub-rec {
+  width: 182px;
+  height: 154px;
+  padding: 16px 4px;
+  display: block;
+}
+div.sthings2 > div.rec > div.rec-2 > div.sub-rec > div.subsub-rec > a {
+  width: 174px;
+  height: 122px;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  cursor: pointer;
+  text-align: center;
+}
+div.sthings2 > div.rec > div.rec-2 > div.sub-rec > div.subsub-rec > a > div {
+  width: 84px;
+  height: 84px;
+  background-color: rgb(241, 242, 244);
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+div.sthings2
+  > div.rec
+  > div.rec-2
+  > div.sub-rec
+  > div.subsub-rec
+  > a
+  > div
+  > figure {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+div.sthings2
+  > div.rec
+  > div.rec-2
+  > div.sub-rec
+  > div.subsub-rec
+  > a
+  > div
+  > figure
+  > img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  object-fit: contain;
+  position: relative;
+  top: 7px;
+}
+div.sthings2 > div.rec > div.rec-2 > div.sub-rec > div.subsub-rec > a > h4 {
+  width: 141.7px;
+  height: 31px;
+  line-height: 31px;
+  display: block;
+  font-family: yekan;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(8, 10, 56);
+  margin-top: 8px;
+  position: relative;
+  left: -15px;
+}

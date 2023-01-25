@@ -8,3 +8,7 @@
     font-family: yekan;
     src: url("../fonts/iran-yekan/Yekan.ttf");
   }  
+  :root{
+    --textcolor: rgb(63,64,100);
+    --buttoncolor:rgb(224,224,230);
+  }

@@ -3,10 +3,13 @@ div.menu {
   height: 50px;
   background-color: #ffffff;
   z-index: 99;
+  position: relative;
+  top: 68px;
 }
 div.menu > nav {
   width: inherit;
   height: inherit;
+  position: sticky;
 }
 div.menu > nav > ul {
   width: inherit;
@@ -19,6 +22,14 @@ div.menu > nav > ul > li {
   height: inherit;
   display: inline-block;
 }
+/* div.menu > nav > ul > li>div{
+  width: 18px;
+  height: 18px;
+}
+div.menu > nav > ul > li>div>img{
+  width: 18px;
+  height: 18px;
+} */
 div.menu > nav > ul > li > a,
 a.a-1 {
   font-family: yekan;
@@ -33,19 +44,36 @@ a.a-1 {
   font-weight: 500;
   /* vertical-align: top; */
 }
-div.menu > nav > ul > li:first-of-type > a{
+div.menu > nav > ul > li:first-of-type > a {
   color: black;
   font-size: 17px;
   font-weight: 500;
 }
-div.menu > nav > ul > li > a.a-1 {
-  padding-right: 600px;
+div.menu > nav > ul > li.pin {
+  position: absolute;
+  left: 0;
+}
+div.menu > nav > ul > li.pin > a.a-1 {
+  display: inline-block;
+}
+div.menu > nav > ul > li.pin > div {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  top: 5px;
+  left: -5px;
+}
+div.menu > nav > ul > li.pin > div > img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
 }
 div.menu > nav > ul > li > div.submenu {
   width: calc(100vw - 50px);
   height: 600px;
   position: absolute;
-  top: 178px;
+  top: 50px;
   left: calc(50% - calc(100vw - 50px) / 2);
   background-color: #f3f3f3;
   display: none;
